@@ -5,7 +5,7 @@ This image can be used to build and host gohugo.io websites statelessly.
 You only need to specify `HUGO_WEBSITE_REPO` for a minimal setup. Example:
 
 ```
-docker run --rm -ti -e HUGO_WEBSITE_REPO=https://user:pass@example.org/website.git -p 80:80 opthomasprime/hugo-runner
+docker run --rm -ti -e HUGO_WEBSITE_REPO=https://user:pass@example.org/website.git -p 80:80 tmsmr/hugo-runner
 ```
 
 For the sake of simplicity only HTTPS remotes are supported.
