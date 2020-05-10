@@ -1,4 +1,4 @@
-FROM nginx:1.17.3-alpine
+FROM nginx:1.17.10-alpine
 
 MAINTAINER Thomas Maier <contact@thomas-maier.net>
 
